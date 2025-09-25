@@ -83,24 +83,24 @@ ReAct Agent/
 
 ```
 🤖 ReAct Agent is thinking...
-Question: Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?
+Question: Which Italian city was Michelangelo working in when he painted the ceiling of the Sistine Chapel, and what was the name of the Pope who commissioned this work?
 --------------------------------------------------
 
 > Entering new AgentExecutor chain...
-I need to find out more about David Chanoff and his collaboration with a U.S. Navy admiral...
+I need to find out more about Michelangelo and the Sistine Chapel, specifically where he was working and who commissioned the work.
 Action: Lookup
-Action Input: David Chanoff
-Observation: [Wikipedia search results about David Chanoff]
-I need to find more information about David Chanoff's collaboration with a U.S. Navy admiral...
+Action Input: Michelangelo
+Observation: [Wikipedia search results about Michelangelo and his works]
+I need to find more information about the Sistine Chapel and who commissioned it.
 Action: Lookup
-Action Input: William J. Crowe
-Observation: [Wikipedia search results about William J. Crowe]
-I now know that David Chanoff collaborated with U.S. Navy Admiral William J. Crowe, who served as the ambassador to the United Kingdom under President Bill Clinton.
-Final Answer: President Bill Clinton
+Action Input: Sistine Chapel
+Observation: [Wikipedia search results about the Sistine Chapel, its location in Vatican City, and Pope Julius II's commission]
+I now know that Michelangelo was working in Vatican City (Rome) when he painted the Sistine Chapel ceiling, and Pope Julius II commissioned this work.
+Final Answer: Vatican City (Rome) and Pope Julius II
 
 > Finished chain.
 --------------------------------------------------
-Answer: President Bill Clinton
+Answer: Vatican City (Rome) and Pope Julius II
 ```
 
 ## Customization
