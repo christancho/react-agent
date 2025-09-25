@@ -111,6 +111,18 @@ To ask different questions, modify the `question` variable in `react-agent.py`:
 question = "Your question here"
 ```
 
+### Example Questions for Testing
+
+Here are some medium-difficulty questions that effectively demonstrate the ReAct agent's reasoning capabilities:
+
+**Art History**: "Which Italian city was Michelangelo working in when he painted the ceiling of the Sistine Chapel, and what was the name of the Pope who commissioned this work?"
+
+**Martial Arts**: "What is the name of the martial art style that Bruce Lee developed, and which traditional Chinese martial art did he study under Ip Man before creating his own system?"
+
+**Statistics**: "Who developed the statistical method known as the t-test, and what was the name of the brewery where this statistician worked when he created this important statistical tool?"
+
+These questions require multi-step reasoning, information synthesis, and demonstrate the agent's ability to connect different pieces of information from Wikipedia searches.
+
 ## Notes
 
 - Make sure to keep your `.env` file secure and never commit it to version control

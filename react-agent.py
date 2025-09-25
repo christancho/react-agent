@@ -69,9 +69,12 @@ Thought: {agent_scratchpad}
     # Create the agent executor
     agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
     
-    # Example question
-    question = "Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?"
-    
+    # Example questions, uncomment one at a time to test
+    question = "Which Italian city was Michelangelo working in when he painted the ceiling of the Sistine Chapel, and what was the name of the Pope who commissioned this work?"
+    #question = "What is the name of the martial art style that Bruce Lee developed, and which traditional Chinese martial art did he study under Ip Man before creating his own system?"
+    #question = "Who developed the statistical method known as the t-test, and what was the name of the brewery where this statistician worked when he created this important statistical tool?"
+
+
     print("🤖 ReAct Agent is thinking...")
     print(f"Question: {question}")
     print("-" * 50)
