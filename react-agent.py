@@ -1,9 +1,10 @@
 import os
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-from langchain.agents import create_react_agent, AgentExecutor, Tool
+from langchain.agents import create_react_agent, AgentExecutor
+from langchain_core.tools import Tool
 from langchain_community.utilities import WikipediaAPIWrapper
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 # Load environment variables from .env file
 load_dotenv()
